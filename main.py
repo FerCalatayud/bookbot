@@ -2,13 +2,16 @@ def read_book(file_path):
     with open(file_path) as f:
         file_data = f.read()
 
-    print(file_data)
-
-    return 0
+    return file_data
 
 def main():
-    read_book("books/frankenstein.txt")
+    file_data = read_book("books/frankenstein.txt")
 
-    return 0
+    words = file_data.split()
+    word_count = len(words)
+
+    print(word_count)
+
+    return word_count
 
 main()
