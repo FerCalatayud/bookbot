@@ -1,2 +1,2 @@
 # bookbot
-BookBot is NOT my first git project, but I'm enjoying reviewing the fundamentals!
+Simple program to handle strings. This just to practice the fundamentals.
